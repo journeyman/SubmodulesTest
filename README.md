@@ -1,4 +1,0 @@
-SubmodulesTest
-==============
-
-submodules test
