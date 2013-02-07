@@ -1,0 +1,3 @@
+[submodule "External/SubmoduleProject"]
+	path = External/SubmoduleProject
+	url = https://github.com/journeyman/SubmoduleProject.git
