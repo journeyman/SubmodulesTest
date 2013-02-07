@@ -14,27 +14,7 @@
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
 
         <Button Content="Click me">
-            <i:Interaction.Triggers>
-                <i:EventTrigger EventName="Click">
-                    <local:MessageAction />
-                </i:EventTrigger>
-            </i:Interaction.Triggers>
         </Button>
 
-        <!--<GridView ItemsSource="{Binding Items}">
-            <GridView.ItemTemplate>
-                <DataTemplate>
-                    <Button>
-                        <TextBlock Text="{Binding}" />
-                        
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="Click">
-                                <local:MessageAction />
-                            </i:EventTrigger>
-                        </i:Interaction.Triggers>
-                    </Button>
-                </DataTemplate>
-            </GridView.ItemTemplate>
-        </GridView>-->
     </Grid>
 </Page>
