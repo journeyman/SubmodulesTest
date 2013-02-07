@@ -1,0 +1,3 @@
+[submodule "External/Windows.UI.Interactivity"]
+	path = External/Windows.UI.Interactivity
+	url = https://github.com/jlaanstra/Windows.UI.Interactivity.git

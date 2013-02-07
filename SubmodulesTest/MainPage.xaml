@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="SubmodulesTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="using:Windows.UI.Interactivity"
+    xmlns:local="using:SubmodulesTest" mc:Ignorable="d">
+    <Page.DataContext>
+        <local:GridViewVM />
+    </Page.DataContext>
+
+
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+
+        <Button Content="Click me">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <local:MessageAction />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+
+        <!--<GridView ItemsSource="{Binding Items}">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <Button>
+                        <TextBlock Text="{Binding}" />
+                        
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Click">
+                                <local:MessageAction />
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </Button>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>-->
+    </Grid>
+</Page>
